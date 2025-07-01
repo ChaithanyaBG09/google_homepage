@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: Arial, sans-serif;
   background-color: #202124;
@@ -12,7 +11,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 /* Header Container */
 .header {
   display: flex;
@@ -23,42 +21,35 @@ body {
   position: relative;
   top: 0;
 }
-
 /* Left Section (About & Store) */
 .header_right {
   display: flex;
   gap: 20px;
 }
-
 /* Right Section (Gmail, Images, Icons) */
 .header_left {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-
 /* Link Styling */
 .header a {
   color: white;
   text-decoration: none;
   font-size: 14px;
 }
-
 .header a:hover {
   text-decoration: underline;
 }
-
 /* Material Icons Styling */
 .material-symbols-outlined {
   font-size: 24px;
   color: white;
   cursor: pointer;
 }
-
 .material-symbols-outlined:hover {
   opacity: 0.7;
 }
-
 /* body Styling */
 .body p{
     font-size: 100px;
@@ -67,7 +58,6 @@ body {
     padding: 0 0 30px 0;
     color: white;
 }
-
 .mainbody {
   display: flex;
   justify-content: center;
@@ -75,14 +65,11 @@ body {
   height: 400px;
   flex-direction: column;
 }
-
-
 .search {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .search_input {
   display: flex;
   align-items: center;
@@ -93,7 +80,6 @@ body {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
   gap: 10px;
 }
-
 .search_input input {
   flex: 1;
   border: none;
@@ -101,20 +87,17 @@ body {
   font-size: 16px;
   background-color: transparent;
 }
-
 .material-symbols-outlined {
   color: gray;
   font-size: 24px;
   cursor: pointer;
 }
-
 .search_button {
   margin-top: 20px;
   box-shadow: none;
   outline: none;
   padding-top: 20px;
 }
-
 .search_button button {
   padding: 10px 20px;
   box-shadow: none;
@@ -126,23 +109,19 @@ body {
   cursor: pointer;
   font-size: 14px;
 }
-
 .language{
     color:white;
     font-size: 14px;
     font-family: Arial, sans-serif;
     padding-top: 30px;;
 }
-
 .language a{
    color:#99c3ff;
    text-decoration: none;
 }
-
 .language a:hover {
   text-decoration: underline;
 }
-
 .footer {
   width: 100%;
   height:14%;
@@ -154,14 +133,12 @@ body {
   left: 0;
   color: white;
 }
-
 .footer-top {
   color: white;
   margin-bottom: 10px;
   margin-top: 10px;
   padding-left: 2px;
 }
-
 .footer-divider {
   height: 1px;
   background-color: #313335;
@@ -169,7 +146,6 @@ body {
   padding:0px 0px 0px 0px;
   margin: 15px 0;
 }
-
 /* Layout for links */
 .footer-row {
   display: flex;
@@ -192,14 +168,12 @@ body {
 .footer a:hover {
   text-decoration: underline;
 }
-
 @media (max-width: 600px) {
   .footer-row {
     flex-direction: column;
     align-items: center;
     gap: 10px;
   }
-
   .footer-left,
   .footer-right {
     justify-content: center;
