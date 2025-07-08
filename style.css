@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+body { 
   font-family: Arial, sans-serif;
   background-color: #202124;
   height: 100vh;
@@ -70,7 +70,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.search_input {
+.search-input {
   display: flex;
   align-items: center;
   border-radius: 40px;
