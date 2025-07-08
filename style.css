@@ -80,7 +80,7 @@ body {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
   gap: 10px;
 }
-.search_input input {
+.search-input input {
   flex: 1;
   border: none;
   outline: none;
